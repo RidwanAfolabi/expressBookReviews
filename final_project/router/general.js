@@ -13,6 +13,7 @@ public_users.post("/register", (req,res) => {
   const password = req.body.password;
 
   if (username && password) {
+    // not yet complete
   };
 
   return res.status(300).json({message: "Yet to be implemented"});
